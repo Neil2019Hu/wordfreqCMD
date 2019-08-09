@@ -29,12 +29,6 @@ def file2str(fname):#文件转字符
     return s#函数尾
 
 
-##def remove_punctuation(s):#标点删除
-##    s = s.replace(',','').replace('.','').replace('?','')#replace函数
-##    s = s.strip() # remove whitespaces in the beginning or in the end
-##    return s#函数尾
-
-
 import string
 def remove_punctuation(s):
     special_characters = '.,?!:;#()"' # 把里面的字符都去掉
